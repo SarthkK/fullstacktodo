@@ -1,6 +1,6 @@
 const express = require("express");
 const { createTodo, updateTodo } = require("./types");
-const { todo, todo } = require("./db");
+const { todo } = require("./db");
 const app = express();
 const port = 3000;
 
